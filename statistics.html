@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rečko</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Početna</a>
+        <a class="active" href="statistics.html">Statistika</a>
+    </div>
+
+    <div class="stats-container">
+        <h2>Statistika igara</h2>
+
+        <div class="stats-summary">
+            <div class="stat-item">
+                <div class="stat-number" id="total-games">0</div>
+                <div class="stat-label">Ukupno igara</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="wins">0</div>
+                <div class="stat-label">Pobede</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="win-rate">0%</div>
+                <div class="stat-label">Pobede</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="losses">0</div>
+                <div class="stat-label">Poraza</div>
+            </div>
+
+        </div>
+
+
+        <h3>Distribucija pokušaja</h3>
+        <div class="chart-container">
+            <div class="chart" id="attempts-chart">
+                <div class="chart-bar win-bar" data-attempt="1">
+                    <div class="bar-label">1. pokušaj</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+                <div class="chart-bar win-bar" data-attempt="2">
+                    <div class="bar-label">2. pokušaj</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+                <div class="chart-bar win-bar" data-attempt="3">
+                    <div class="bar-label">3. pokušaj</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+                <div class="chart-bar win-bar" data-attempt="4">
+                    <div class="bar-label">4. pokušaj</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+                <div class="chart-bar win-bar" data-attempt="5">
+                    <div class="bar-label">5. pokušaj</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+                <div class="chart-bar win-bar" data-attempt="6">
+                    <div class="bar-label">6. pokušaj</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+                <div class="chart-bar loss-bar" data-attempt="0">
+                    <div class="bar-label">Porazi</div>
+                    <div class="bar-container">
+                        <div class="bar-fill"><span class="bar-count">0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="centered">
+            <button class="danger-button game-button" onclick="resetStats()">Obriši statistiku</button>
+        </div>
+
+    </div>
+
+    <script src="js/statistics.js"></script>
+</body>
+
+</html>

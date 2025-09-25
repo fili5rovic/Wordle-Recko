@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rečko</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Početna</a>
+        <a href="statistics.html">Statistika</a>
+    </div>
+
+    <div class="game-container">
+        <div class="game-title">РЕЧКО</div>
+        <div class="message" id="message"></div>
+        <div class="play-again" id="play-again"></div>
+        <div class="game-grid" id="game-grid"></div>
+
+        <div class="instructions">
+            <h2>Uputstvo za igru</h2>
+            <p>Pogodite skrivenu reč od <b>5</b> slova.</p>
+            <p>Nakon unosa reči pritisnite Enter.</p>
+            <p><span class="color-example green"></span> Slovo je tačno i na pravom mestu</p>
+            <p><span class="color-example yellow"></span> Slovo postoji u reči, ali nije na pravom mestu</p>
+            <p><span class="color-example gray"></span> Slovo se ne nalazi u reči</p>
+        </div>
+    </div>
+
+    <div class="keyboard">
+        <div class="keyboard-row">
+            <button>Q</button>
+            <button>W</button>
+            <button>E</button>
+            <button>R</button>
+            <button>T</button>
+            <button>Y</button>
+            <button>U</button>
+            <button>I</button>
+            <button>O</button>
+            <button>P</button>
+        </div>
+        <div class="keyboard-row">
+            <button>A</button>
+            <button>S</button>
+            <button>D</button>
+            <button>F</button>
+            <button>G</button>
+            <button>H</button>
+            <button>J</button>
+            <button>K</button>
+            <button>L</button>
+        </div>
+        <div class="keyboard-row">
+            <button class="wide">Enter</button>
+            <button>Z</button>
+            <button>X</button>
+            <button>C</button>
+            <button>V</button>
+            <button>B</button>
+            <button>N</button>
+            <button>M</button>
+            <button class="wide">⌫</button>
+        </div>
+    </div>
+
+
+    <script src="js/index.js"></script>
+
+</html>
