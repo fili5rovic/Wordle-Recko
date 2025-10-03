@@ -1,6 +1,6 @@
 # Rečko (Serbian Wordle)
 
-This project is a **web-based word guessing game** built with **HTML**, **CSS**, and **JavaScript**. "Rečko" is a Serbian adaptation of the popular Wordle game, where players try to guess a secret 5-letter word within 6 attempts. The game offers bilingual support (Serbian and English) and tracks player statistics.
+This project is a **web-based word guessing game** built with **HTML**, **CSS**, and **JavaScript**. "Rečko" is a Serbian adaptation of the popular Wordle game, where players try to guess a secret 5-letter word within 6 attempts. The game also tracks player statistics.
 
 > Developed as a laboratory assignment for the "Web Design" course at the University of Belgrade School of Electrical Engineering. For detailed requirements, see [instructions.pdf](instructions.pdf).
 
